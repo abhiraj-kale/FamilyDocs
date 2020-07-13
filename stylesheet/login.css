@@ -1,0 +1,110 @@
+html {
+  background:url("../images/wallpaper.jpg");
+  background-size:100vw auto
+}
+.left-div{
+  float: left;
+  height: 450px;
+  width: 50%;
+  margin-bottom: auto;
+}
+
+#header,#docs{
+  margin-top:0px;
+  font-size: 100px;
+  text-shadow: 2px 2px black;
+}
+#header{
+    color: rgb(230, 153, 0);
+}
+#docs{
+    color: rgb(255, 204, 0);
+}
+.header-div{
+  display: none;
+  height:120px;
+  width: 580px;
+  background-color: rgb(0,0,0,0.4);
+  border: 1px solid black;
+  box-shadow: 3.5px 3.5px 3.5px black;
+}
+.list{
+  display: none;
+  height: 100%;
+  width: 450px;
+  background-color: rgb(0,0,0,0.2);
+  border: 1px solid black;
+  box-shadow: 2px 2px  black;
+}
+.list ul{
+  display: none;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  color:white;
+  padding: 10px;
+  background-color: rgb(0, 0, 0,0.6);
+}
+#in{
+  color: rgb(230, 153, 0);
+  text-shadow: 0.5px 0.5px black;
+  font-size: 50px;
+}
+.login{
+  margin-top: 10%;
+  float: right;
+  margin-right: 5%;
+   width: 35%;
+   height: 475px;
+   border: 2px solid black;
+   box-shadow: 3.5px 3.5px 3.5px black;
+}
+
+#login_form input::selection {
+   background: yellow;
+ }
+h1,#msg{
+  margin-top: 0px;
+  text-align: center;
+}
+#msg{
+  color:red;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+h4{
+  margin-left: 15%;
+}
+#submit{
+  height: 30px;
+  font-size: 15px;
+  padding: 4px;
+  background-color: rgb(230, 153, 0);
+  color:black;
+  border: 0.5px solid black;
+}
+#goback{
+  height:30px;
+  padding-bottom: 10px;
+  background-color: rgb(230, 153, 0);
+  color:black;
+  border: 0.5px solid black;
+}
+#checkbox{
+  font-size: 16px;
+  background-color: rgb(230, 153, 0);
+  color:black;
+  border: 0.5px solid black;
+}
+input[type=text] , input[type=password] , input[type=email], input[type=submit],#goback {
+  width: 60%;
+  height: 20px;
+  padding:2px;
+  margin-left: 15%
+}
+#submit, #goback{
+  margin-top: 10px;
+  height: 30px;
+}

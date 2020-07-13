@@ -1,0 +1,51 @@
+.top-albums{
+    height: 30px;
+}
+.top-albums img{
+    height: 30px;
+    float: left;
+}
+.recents-table th ,.recents-table td{
+    width: 200px;
+    text-overflow: hidden;
+}
+.recents-table th{
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    padding: 15px;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+
+}
+.recents-table td{
+    height: 25px;
+    margin-top: 5px;
+    border-top: 1px solid black;
+}
+.recents-table{
+    text-align: center;
+    height: 30px;
+    margin-left: 25px;
+}
+.recents-table td{
+    color: rgb(61, 61, 61);
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+#link{
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+}
+ #go-back-img{
+     float: left;
+     margin-left: 20px;
+ }
+ #add-to-album-icon{
+     float: right;
+     margin-right: 20px;
+ }
+ .head-album{
+     font-size: 20px;
+     font-weight: bold;
+ }

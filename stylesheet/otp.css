@@ -1,0 +1,50 @@
+html {
+  background:url("../images/wallpaper.jpg");
+  background-size:100vw auto
+}
+.signup{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  width: 35%;
+  height: 300px;
+  border: 2px solid black;
+  font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+  text-align: center;
+  background-color: rgb(255, 255, 102,0.8)
+}
+.otp{
+  height: 100%;
+  width: 100%;
+}
+.otp-lbl{
+  margin-top: 20px;
+}
+.lbl{
+  font-weight: bold;
+  color: green;
+  font-size: 18px;
+  text-align: center;
+}
+.lbl2{
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+.signup input{
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid rgb(230, 153, 0);
+  transition: 0.3s;
+}
+.signup input[type=button]:hover,input[type=text]:focus {
+  background-color: rgb(230, 153, 0);
+  border: 1px solid black;
+  box-shadow: 4px 4px 4px solid black;
+}
+#inp_otp{
+  text-align: center;
+  width: 100px;
+}

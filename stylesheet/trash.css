@@ -1,0 +1,9 @@
+.three_options{
+    position: absolute;
+    display: none;
+    height: 50px;
+    width: 100px;
+    border: none;
+    padding: 0px;
+    background-color: rgb(27, 27, 27 , 0.9);
+}
